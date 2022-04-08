@@ -3,15 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  background-color: #1E1E1E;
 }
 
 img{
   width: 100%;
   display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 a{
   text-decoration: none;
+  color: lightblue;
+  font-weight: bold;
 }
 
 a:hover{
@@ -28,7 +33,26 @@ a:hover{
 }
 
 .card-wrap{
-  width: 179px;
+  width: 190px;
+  background-color: #D7AD3A;
+  padding: 5px;
+  border-radius: 10px;
+  animation: color 10s linear infinite;
+}
+
+@keyframes color {
+  from{ 
+    background-color: #1E1E1E;
+  }
+  25%{
+    background-color: silver;
+  }
+  50%{
+    background-color: silver;
+  }
+  100%{
+    background-color: #1E1E1E;
+  }
 }
 
 .info{
@@ -36,6 +60,11 @@ a:hover{
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 3px;
-  margin-top: 10px;
-  font-size: 14px;
+  margin-top: 3px;
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
 }
