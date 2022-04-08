@@ -17,7 +17,7 @@
     public function exist(){
       
       if($this->releaseDate == ''){
-        return 'ComingSoon';
+        return '"ComingSoon"';
       } else {
         return $this->releaseDate;
       }
