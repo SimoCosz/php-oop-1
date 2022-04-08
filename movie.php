@@ -13,5 +13,14 @@
       $this->director = $_director;
       $this->releaseDate = $_releaseDate;
     }
+
+    public function exist(){
+      
+      if($this->releaseDate == ''){
+        return 'ComingSoon';
+      } else {
+        return $this->releaseDate;
+      }
+    }
   };
 ?>

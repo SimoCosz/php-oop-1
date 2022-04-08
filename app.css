@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.container{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.card-wrap{
+  width: 179px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 3px;
+  margin-top: 10px;
+  font-size: 14px;
+}
