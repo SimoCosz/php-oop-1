@@ -49,7 +49,7 @@
         </h2>
         <span><?php echo $dune->language ?>.</span>
         <span>Directed by: <a href="https://www.mymovies.it/persone/denis-villeneuve/163328/" target="_blank"><?php echo $dune->director ?></a>.</span>
-        <span>Release date: <?php echo $dune->exist() ?>.</span>
+        <span>Release date: <?php echo $dune->existDate() ?>.</span>
       </div>
     </div>
     
@@ -63,7 +63,7 @@
         </h2>
         <span><?php echo $fast->language ?>.</span>
         <span>Directed by: <a href="https://www.mymovies.it/persone/justin-lin/51582/" target="_blank""><?php echo $fast->director ?></a>.</span>
-        <span>Release date: <?php echo $fast->exist() ?>.</span>
+        <span>Release date: <?php echo $fast->existDate() ?>.</span>
       </div>
     </div>
     
@@ -77,7 +77,7 @@
         </h2>
         <span><?php echo $lookUp->language ?>.</span>
         <span>Directed by: <a href="https://www.mymovies.it/persone/adam-mckay/46199/" target="_blank""><?php echo $lookUp->director ?></a>.</span>
-        <span>Release date: <?php echo $lookUp->exist() ?>.</span>
+        <span>Release date: <?php echo $lookUp->existDate() ?>.</span>
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@
       $this->releaseDate = $_releaseDate;
     }
 
-    public function exist(){
+    public function existDate(){
       
       if($this->releaseDate == ''){
         return '"ComingSoon"';
