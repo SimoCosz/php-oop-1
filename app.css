@@ -6,6 +6,12 @@
   background-color: #1E1E1E;
 }
 
+html{
+  background-image: url('https://www.procidafilmfestival.it/wp-content/uploads/2018/02/film-animated-No-Background.gif');
+  background-position: center;
+  background-size: contain;
+}
+
 img{
   width: 100%;
   display: block;
